@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1440px;
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 20px;
+}
+.card-content .tag {
+    color: green;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.card-content h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+.card-content p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.card-content .author {
+    display: flex;
+    align-items: center;
+}
+.card-content .author img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.card-content .author span {
+    color: #888;
+    font-size: 14px;
+}

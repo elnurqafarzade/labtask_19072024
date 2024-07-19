@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b08585;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 500px;
+}
+.main {
+        float: left;
+        width: 67%;
+        background: #fff;
+        padding: 0px;
+        margin-top: 11px;
+   
+    }
+
+.main img
+    {
+        margin: 25px;
+        max-width: 1500px;
+        width: 96%;
+    }
+
+.sidebar {
+    float: right;
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+.title-heading {
+    padding-left: 345px;
+    margin: 25px;
+    font-size: 24px;
+    color: #333;
+}
+.title-description {
+    padding-left: 345px;
+    margin: 25px;
+    font-size: 14px;
+    color: #777;
+}
+
+p{
+    padding-left: 345px;
+}
+
+.tags h2
+{
+    background-color: black;
+    color: white;
+}
+
+.tags h2, .inspiration h2, .follow-me h2 {
+    background-color: black;
+    color: white;
+}
+
+.tags,.inspiration,.follow-me
+{
+    margin-top: 65px;
+}
+
+.tags a, .follow-me a {
+    text-decoration: none;
+    color: #333;
+    background: #e4e4e4;
+    padding: 5px 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.inspiration img {
+    width: 45%;
+    height: auto;
+    margin-bottom: 10px;
+}
